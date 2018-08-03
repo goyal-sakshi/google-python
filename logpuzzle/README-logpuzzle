@@ -1,0 +1,7 @@
+run as:
+
+# to print the image URL's
+python logpuzzle.py <file_name>  # file_name can be animal_code.google.com OR place_code.google.com
+
+# to download the images and open up the index.html, to view the output
+python logpuzzle.py --todir <file_name>  # file_name can be animal_code.google.com OR place_code.google.com
