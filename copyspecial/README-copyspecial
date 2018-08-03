@@ -1,0 +1,3 @@
+run as:
+python copyspecial --todir <path_where_to_copy_the_special_files> ./
+python copyspecial --tozip <path_where_to_create_the_zip_file> ./
