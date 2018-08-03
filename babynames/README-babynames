@@ -1,3 +1,7 @@
 run as:
+
+# to print the babynames and their rank
 python babynames.py <file_name>  # file_name from the baby1990.html, baby1992.html.....
+
+# to create a summary file of the input file, containing the babynames and rank
 python babynames.py --summaryfile <file_name>  # file_name from the baby1990.html, baby1992.html.....
