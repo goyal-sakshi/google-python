@@ -44,10 +44,9 @@ def extract_names(filename):
 	names = []
 	f = open(filename,'rU')
 	text = f.read()
-	print text
 
 	year_match = re.search(r'Popularity\sin\s(\d\d\d\d)',text)
-	print year_match
+
 	if not year_match:
 		sys.stderr.write('Could not find the year')
 		sys.exit(1)
@@ -90,10 +89,9 @@ def main():
 		del args[0]
 
 	# +++your code here+++
-	# For each filename, get the names, then either print the text output
-	# or write it to a summary file
-	for filename in range(1, len(args)):
-
+	# For each filename, get the names, then either print the ite it to a summary file
+	for filename in range(0, len(args)):
+		
 		names = extract_names(args[filename])
 		text = '\n'.join(names)
 		
